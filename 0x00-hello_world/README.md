@@ -6,3 +6,4 @@
 5-printf.c: This script prints a string using printf function with a newline
 6-size.c: This script prints the sizes of various data types in either 32 or 64 bit system
 100-intel: This script generates the assembly code (Intel syntax) of a C code and save it in an output file of the same name
+101-quote.c: This program prints a message to standard error
