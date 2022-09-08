@@ -3,3 +3,4 @@
 2-assembler: This script assembles the c program to generate a .s file
 3-name: This script takes a c-program and creates an executable named cisfun
 4-puts.c: This script prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+5-printf.c: This script prints a string using printf function with a newline
