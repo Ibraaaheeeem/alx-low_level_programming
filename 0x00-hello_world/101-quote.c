@@ -11,6 +11,7 @@
  */
 int main(void)
 {
+/* declare a string variable */
 char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 fprintf(stderr, "%s", msg);
 return (1);
