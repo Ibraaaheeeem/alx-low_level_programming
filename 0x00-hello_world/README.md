@@ -4,3 +4,4 @@
 3-name: This script takes a c-program and creates an executable named cisfun
 4-puts.c: This script prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 5-printf.c: This script prints a string using printf function with a newline
+6-size.c: This script prints the sizes of various data types in either 32 or 64 bit system
