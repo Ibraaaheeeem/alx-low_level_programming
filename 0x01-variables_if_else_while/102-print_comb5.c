@@ -28,23 +28,19 @@ int main(void)
 				for (o = 0; o < 10; o++)
 				{
 					if ((n > l || n == l && o > m))
-					{	
+					{
 						putchar(l + '0');
 						putchar(m + '0');
 						putchar(' ');
 						putchar(n + '0');
 						putchar(o + '0');
-						
-						/* Test if end of output
-						 * is not reached
-						 */
 
-						if (!(l == 9 && m == 8
-							&& n == 9 && o == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (!((l == 9 && m == 8)
+						&& (n == 9 && o == 9)))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
