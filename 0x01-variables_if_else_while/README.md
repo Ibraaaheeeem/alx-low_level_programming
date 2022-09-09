@@ -3,3 +3,4 @@
 2-print_alphabet.c: This program prints the lowercase of the english alphabet followed by a newline
 3-print_alphabets.c: This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 4-print_alphabt.c: This program prints the english alphabet in lowercase except q and e
+5-print_numbers.c: This program prints all single digit numbers of base 10 starting from 0, followed by a new line.
