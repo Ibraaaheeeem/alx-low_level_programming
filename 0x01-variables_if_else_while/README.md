@@ -7,4 +7,5 @@
 6-print_numberz.c: This program prints all single digit numbers of base 10 starting from 0, followed by a new line.
 7-print_tebahpla.c: This program prints the english alphabet in the reverse order
 8-print_base16.c: This program prints all the numbers of the base 16
+9-print_comb.c: This program prints all possible combinations of single digit numbers
 
