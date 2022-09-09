@@ -8,4 +8,4 @@
 7-print_tebahpla.c: This program prints the english alphabet in the reverse order
 8-print_base16.c: This program prints all the numbers of the base 16
 9-print_comb.c: This program prints all possible combinations of single digit numbers
-
+100-print_comb3.c: This program prints specific combinations of 2 digit numbers
