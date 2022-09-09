@@ -27,7 +27,7 @@ int main(void)
 			{
 				for (o = 0; o < 10; o++)
 				{
-					if ((n > l || n == l && o > m))
+					if ((n > l || (n == l && o > m)))
 					{
 						putchar(l + '0');
 						putchar(m + '0');
