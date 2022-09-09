@@ -21,7 +21,7 @@ int main(void)
 
 	for (n = 0; n < 26; n++)
 		putchar(c + n);
-	
+
 	c = 'A';
 
 	for (n = 0; n < 26; n++)
