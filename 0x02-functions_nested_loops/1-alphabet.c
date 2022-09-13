@@ -1,18 +1,22 @@
 #include "main.h"
 
 /**
- * main - Entry point
  *
  * Function: This function
- * prints the word _puchar
+ * prints alphabets in lowercase
  * followed by a newline
  *
  * Return: ALways 0
  *
  */
 
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
+	int c;
+
+	for (c = 'a'; c <= 'z'; c++){
+		_putchar(c);
+	}
+	_putchar('\n');
 	return (0);
 }
