@@ -12,7 +12,7 @@
  *
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int c;
 	int n = 0;
@@ -24,6 +24,6 @@ void print_alphabet(void)
 			_putchar(c);
 		}
 	_putchar('\n');
-	n++
+	n++;
 	}
 }
