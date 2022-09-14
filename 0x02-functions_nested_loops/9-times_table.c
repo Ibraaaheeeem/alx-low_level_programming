@@ -33,8 +33,10 @@ void times_table(void)
 			else
 			{
 				if (n2 != 0)
+				{
 					_putchar(' ');
 					_putchar(' ');
+				}
 				_putchar(p + '0');
 				if (n2 < 9)
 					_putchar(',');
