@@ -16,7 +16,7 @@
 
 void print_to_98(int n)
 {
-	int c;
+	int c = n;
 
 	if (c > 98)
 	{
