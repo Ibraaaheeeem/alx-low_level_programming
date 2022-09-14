@@ -23,7 +23,6 @@ void print_times_table(int n)
 		for (n2 = 0; n2 <= n; n2++)
 		{
 			p = n1 * n2;
-			
 			if (p >= 100)
 			{
 				if (n2 != 0)
@@ -31,9 +30,10 @@ void print_times_table(int n)
 				_putchar(p / 100 + '0');
 				_putchar((p % 100) % 10 + '0');
 				_putchar(p % 10 + '0');
-			
-			}
 
+				if (n2 < n)
+					_putchar(',');
+			}
 			else if (p >= 10)
 			{
 				if (n2 != 0)
@@ -43,7 +43,7 @@ void print_times_table(int n)
 				}
 				_putchar(p / 10 + '0');
 				_putchar(p % 10 + '0');
-				if (n2 < 9)
+				if (n2 < n)
 					_putchar(',');
 			}
 			else
@@ -55,7 +55,7 @@ void print_times_table(int n)
 					_putchar(' ');
 				}
 				_putchar(p + '0');
-				if (n2 < 9)
+				if (n2 < n)
 					_putchar(',');
 			}
 		}
