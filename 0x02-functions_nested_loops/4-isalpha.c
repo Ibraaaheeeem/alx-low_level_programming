@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
+ * _isalpha - Entry point
  *
  * Function: This function
  * checks if a character
