@@ -23,19 +23,21 @@ void times_table(void)
 
 			if (p >= 10)
 			{
+				if (n2 != 0)
+					_putchar(' ');
 				_putchar(p / 10 + '0');
 				_putchar(p % 10 + '0');
 				if (n2 < 9)
 					_putchar(',');
-				_putchar(' ');
 			}
 			else
 			{
+				if (n2 != 0)
+					_putchar(' ');
+					_putchar(' ');
 				_putchar(p + '0');
 				if (n2 < 9)
 					_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
 			}
 		}
 		_putchar('\n');
