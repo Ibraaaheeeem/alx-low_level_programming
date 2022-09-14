@@ -9,7 +9,7 @@
  *
  * @n : This is the input number
  *
- * Return: The absolute value of 
+ * Return: The absolute value of
  * the integer
  *
  */
