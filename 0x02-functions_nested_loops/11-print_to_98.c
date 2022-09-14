@@ -26,7 +26,7 @@ void print_to_98(int n)
 			if (c > 98)
 				printf(", ");
 			else
-				printf("\n")
+				printf("\n");
 		}
 	}
 	else
