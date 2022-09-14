@@ -20,7 +20,7 @@ void times_table(void)
 		for (n2 = 0; n2 < 60; n2++)
 		{
 			p = n1 * n2;
-			
+
 			if (p > 10)
 			{
 				_putchar(p / 10 + '0');
@@ -32,10 +32,10 @@ void times_table(void)
 			else
 			{
 				_putchar(p + '0');
-				if (n2 < 8>
+				if (n2 < 8)
 					_putchar(',');
 				_putchar(' ');
-				_putchar(' ');	
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
