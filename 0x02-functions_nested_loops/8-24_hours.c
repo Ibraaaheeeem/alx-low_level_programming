@@ -27,7 +27,7 @@ void jack_bauer(void)
 			}
 			else
 			{
-				printf("%d", h);
+				printf("%i", h);
 			}
 			_putchar(':');
 
@@ -38,10 +38,10 @@ void jack_bauer(void)
 			}
 			else
 			{
-				printf("%d", m);
+				printf("%i", m);
 			}
 
-		_putchar('\n');
+			_putchar('\n');
 		}
 
 	}
