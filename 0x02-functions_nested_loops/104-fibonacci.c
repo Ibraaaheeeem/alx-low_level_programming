@@ -13,7 +13,7 @@
  */
 int main(void)
 {
-int n = 0;
+int n;
 unsigned long int n1 = 1;
 unsigned long int n2 = 2;
 unsigned long int next;
@@ -21,11 +21,11 @@ unsigned long int next;
 printf("%lu, ", n1);
 printf("%lu, ", n2);
 
-for (n = 0; n < 96; n++)
+for (n = 2; n < 100; n++)
 {
 
 	next = n2 + n1;
-	if (n == 95)
+	if (n == 99)
 		printf("%lu\n", next);
 	else
 		printf("%lu, ", next);
