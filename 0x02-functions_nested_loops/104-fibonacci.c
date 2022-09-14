@@ -25,7 +25,7 @@ for (n = 2; n < 98; n++)
 {
 
 	next = n2 + n1;
-	if (n == 9)
+	if (n == 97)
 		printf("%lu\n", next);
 	else
 		printf("%lu, ", next);
