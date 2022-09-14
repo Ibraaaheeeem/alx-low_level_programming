@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -17,7 +18,7 @@
 int _islower(int c)
 {
 /* c - character to check */
-	if (islower(c)) /*>= 'a' && c <= 'z')*/
+	if (islower(c))/*>= 'a' && c <= 'z')*/
 		return (1);
 	else
 		return (0);
