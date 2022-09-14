@@ -25,10 +25,9 @@ while (n < 48)
 {
 	next = n2 + n1;
 	if (n < 48)
-		printf("%d, ", next);
+		printf("%i, ", next);
 	else if (n == 47)
-		printf("%d\n", next);
-	
+		printf("%i\n", next);
 	n1 = n2;
 	n2 = next;
 	n++;
