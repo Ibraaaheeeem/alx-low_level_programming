@@ -21,7 +21,7 @@ void times_table(void)
 		{
 			p = n1 * n2;
 
-			if (p > 10)
+			if (p >= 10)
 			{
 				_putchar(p / 10 + '0');
 				_putchar(p % 10 + '0');
