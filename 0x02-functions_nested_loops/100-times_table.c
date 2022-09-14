@@ -46,7 +46,7 @@ void print_times_table(int n)
 	}
 	else if (n2 != 0)
 	{
-		printf("   ");
+		printf("%s", "   ");
 		_putchar(p + '0');
 	}
 	else
