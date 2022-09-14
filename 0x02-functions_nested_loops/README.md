@@ -10,3 +10,4 @@
 9-times_table.c: This program prints the 9 times table starting with 0
 10-add.c: This program reads two integers and return the result
 11-print_to_98.c: This program prints a set of all natural nnumbers from n to 98
+100-times_table.c: This program prints n times table starting with 0
