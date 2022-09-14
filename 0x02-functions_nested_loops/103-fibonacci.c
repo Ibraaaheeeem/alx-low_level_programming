@@ -17,14 +17,14 @@ int n = 0;
 long int n1 = 1;
 long int n2 = 2;
 long int next;
-long long int sum = 2;
+long int sum = 2;
 
 for (n = 0; ; n++)
 {
 	next = n2 + n1;
 	if (next > 4000000)
 	{
-		printf("%lli\n", sum);
+		printf("%li\n", sum);
 		break;
 	}
 	if (next % 2 == 0)
