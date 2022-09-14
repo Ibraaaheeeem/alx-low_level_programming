@@ -14,23 +14,23 @@
 int main(void)
 {
 int n = 0;
-int n1 = 1;
-int n2 = 2;
-int next;
+long int n1 = 1;
+long int n2 = 2;
+long int next;
 
-printf("%d, ", n1);
-printf("%d, ", n2);
+printf("%ld, ", n1);
+printf("%ld, ", n2);
 
-while (n < 48)
+for (n = 0; n < 48; n++)
 {
+
 	next = n2 + n1;
 	if (n < 48)
-		printf("%i, ", next);
+		printf("%ld, ", next);
 	else if (n == 47)
-		printf("%i\n", next);
+		printf("%ld\n", next);
 	n1 = n2;
 	n2 = next;
-	n++;
 }
 return (0);
 }
