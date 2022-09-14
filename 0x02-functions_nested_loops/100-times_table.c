@@ -13,10 +13,11 @@
 
 void print_times_table(int n)
 {
-	if (n > 15  || n < 0)
-		return;
+
 	int n1 = 0, n2 = 0, p = 0;
 
+	if (n > 15  || n < 0)
+		return;
 	for (n1 = 0; n1 <= n; n1++)
 	{
 		for (n2 = 0; n2 <= n; n2++)
