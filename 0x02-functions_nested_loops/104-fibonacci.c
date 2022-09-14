@@ -21,11 +21,11 @@ unsigned long int next;
 printf("%lu, ", n1);
 printf("%lu, ", n2);
 
-for (n = 2; n < 97; n++)
+for (n = 2; n < 98; n++)
 {
 
 	next = n2 + n1;
-	if (n == 96)
+	if (n == 9)
 		printf("%lu\n", next);
 	else
 		printf("%lu, ", next);
