@@ -25,10 +25,10 @@ for (n = 0; n < 48; n++)
 {
 
 	next = n2 + n1;
-	if (n < 48)
-		printf("%ld, ", next);
-	else if (n == 47)
+	if (n == 47)
 		printf("%ld\n", next);
+	else
+		printf("%ld, ", next);
 	n1 = n2;
 	n2 = next;
 }
