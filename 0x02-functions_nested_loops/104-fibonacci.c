@@ -24,7 +24,6 @@ unsigned long int l2a;
 unsigned long int l2b;
 
 printf("%lu", n1);
-printf(", %lu", n2);
 
 for (i = 2; i < 91; i++)
 {
