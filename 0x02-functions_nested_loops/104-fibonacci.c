@@ -13,42 +13,37 @@
  */
 int main(void)
 {
+	unsigned long int i;
+	unsigned long int bef = 1;
+	unsigned long int aft = 2;
+	unsigned long int l = 1000000000;
+	unsigned long int bef1;
+	unsigned long int bef2;
+	unsigned long int aft1;
+	unsigned long int aft2;
 
-unsigned long int i;
-unsigned long int n1 = 1;
-unsigned long int n2 = 2;
-unsigned long int l = 1000000000;
-unsigned long int l1a;
-unsigned long int l1b;
-unsigned long int l2a;
-unsigned long int l2b;
+	printf("%lu", bef);
+	for (i = 1; i < 91; i++)
+	{
+		printf(", %lu", aft);
+		aft += bef;
+		bef = aft - bef;
+	}
 
-printf("%lu", n1);
+	bef1 = (bef / l);
+	bef2 = (bef % l);
+	aft1 = (aft / l);
+	aft2 = (aft % l);
 
-for (i = 2; i < 91; i++)
-{
-	printf(", %lu", n2);
-	n2 += n1;
-	n1 = n2 - n1;
-}
-
-l1a = (n1 / l);
-l1b = (n1 % l);
-l2a = (n2 / l);
-l2b = (n2 % l);
-
-
-for (i = 92; i < 99; ++i)
-{
-printf(", %lu", l2a + (l2b / l));
-printf("%lu", l2b % l);
-l2a = l2a + l1a;
-l1a = l2a - l1a;
-l2b = l2b + l1b;
-l1b = l2b - l1b;
-
-}
-
-printf("\n");
-return (0);
+	for (i = 92; i < 99; ++i)
+	{
+		printf(", %lu", aft1 + (aft2 / l));
+		printf("%lu", aft2 % l);
+		aft1 = aft1 + bef1;
+		bef1 = aft1 - bef1;
+		aft2 = aft2 + bef2;
+		bef2 = aft2 - bef2;
+	}
+	printf("\n");
+	return (0);
 }
