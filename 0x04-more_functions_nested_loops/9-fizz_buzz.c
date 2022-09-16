@@ -11,20 +11,19 @@
  *
  */
 
-int main()
+int main(void)
 {
 	int n;
 
 	for (n = 1; n <= 100; n++)
 	{
-		
 		if (n % 15 == 0)
 			printf("%s ", "FizzBuzz");
 		else if (n % 3 == 0)
 			printf("%s ", "Fizz");
 		else if (n % 5 == 0)
 			printf("%s ", "Buzz");
-		else if(n < 100)
+		else if (n < 100)
 			printf("%d ", n);
 		else if (n == 100)
 			printf("%d\n", n);
