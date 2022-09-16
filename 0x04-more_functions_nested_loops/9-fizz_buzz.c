@@ -10,23 +10,35 @@
  *
  * Return: 0 always
  */
-
 int main(void)
 {
-	int n;
+	int x = 1;
 
-	for (n = 1; n <= 100; n++)
+	while (x < 101)
 	{
-		if (n % 3 == 0 && n % 5 == 0)
-			printf("%s ", "FizzBuzz");
-		else if (n % 3 == 0)
-			printf("%s ", "Fizz");
-		else if (n % 5 == 0)
-			printf("%s ", "Buzz");
-		else if (n < 100)
-			printf("%d ", n);
-		else if (n == 100)
-			printf("%d", n);
+		if (x % 3 == 0 && x % 5 == 0)
+		{
+			printf("%s", "FizzBuzz");
+		}
+		else if (x % 3 == 0)
+		{
+			printf("%s", "Fizz");
+		}
+		else if (x % 5 == 0)
+		{
+			printf("%s", "Buzz");
+		}
+		else
+		{
+			printf("%d", x);
+		}
+
+		if (x != 100)
+		{
+		printf(" ");
+		}
+		x++;
 	}
 	printf("\n");
+	return (0);
 }
