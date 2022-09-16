@@ -6,7 +6,7 @@
  * prints a square in the terminal
  * followed by a newline
  *
- * @size The number of times the character
+ * @size: The number of times the character
  * will be printed
  *
  */
@@ -22,6 +22,6 @@ void print_square(int size)
 			_putchar('#');
 		_putchar('\n');
 	}
-	if (n <= 0)
+	if (size<= 0)
 		_putchar('\n');
 }
