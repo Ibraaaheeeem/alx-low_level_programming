@@ -28,4 +28,5 @@ int main(void)
 		else if (n == 100)
 			printf("%d\n", n);
 	}
+	printf("\n");
 }
