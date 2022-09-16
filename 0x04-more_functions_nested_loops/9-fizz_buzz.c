@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_numbers - Entry point
+ * main - Entry point
  *
  * Function: This function
  * prints numbers 1 - 100
  * with Fizz Buzz
  * followed by a newline
  *
- *
+ * Return: 0 always
  */
 
 int main(void)
