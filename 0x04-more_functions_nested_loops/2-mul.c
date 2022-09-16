@@ -14,7 +14,7 @@
  *
  */
 
-int mul(int a, int b)_
+int mul(int a, int b)
 {
 	product = a * b;
 	return (product);
