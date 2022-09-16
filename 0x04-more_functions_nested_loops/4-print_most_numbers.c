@@ -1,7 +1,7 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_numbers - Entry point
+ * print_most_numbers - Entry point
  *
  * Function: This function
  * prints numbers 0 - 9
@@ -11,7 +11,7 @@
  *
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int n;
 
