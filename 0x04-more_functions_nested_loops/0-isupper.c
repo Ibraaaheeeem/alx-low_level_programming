@@ -14,7 +14,7 @@
  *
  */
 
-int _islower(int c)
+int _isupper(int c)
 {
 /* c - character to check */
 	if (c >= 'A' && c <= 'Z')
