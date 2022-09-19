@@ -23,8 +23,8 @@ void rev_string(char *s)
 	{
 		char tmp;
 		tmp = s[i];
-		s[i] = s[j-i-1];
-		s[j-i-1] = tmp;
+		s[i] = s[j-i];
+		s[j-i] = tmp;
 		
 	}
 }
