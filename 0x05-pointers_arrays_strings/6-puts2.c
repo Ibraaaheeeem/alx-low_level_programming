@@ -2,7 +2,7 @@
 /**
  * puts2 - This function
  * prints a string to stdout
- * at every other character 
+ * at every other character
  *
  * @str: The string variable to print
  *
