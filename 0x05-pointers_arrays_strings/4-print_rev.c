@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * print_rev - This function
+ * prints a string to stdout
+ * in reverse
+ *
+ * @s: The string variable to print
+ *
+ */
+
+void print_rev(char *s)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	while (i != 1)
+	{
+	_putchar(str[i - 1]);
+	i--;
+	}
+	_putchar('\n');
+}
