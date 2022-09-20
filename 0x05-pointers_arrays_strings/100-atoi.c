@@ -25,7 +25,7 @@ int _atoi(char *s)
 			if (s[i + 1] < 48 || s[i + 1] > 57)
 				break;
 		}
-		else if (s[i] == 45)
+		if (s[i] == 45)
 		{
 			++minus;
 			if (minus % 2 == 0)
