@@ -6,11 +6,11 @@
  * converts a string to an integer
  *
  * @s: The string variable to print
- *
+ * Return: The number format of the string
  */
 
 
-void _atoi(char *s)
+int _atoi(char *s)
 {
 	int i = 0;
 	int n = 0;
