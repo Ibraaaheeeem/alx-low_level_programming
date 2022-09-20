@@ -13,7 +13,6 @@
 void _atoi(char *s)
 {
 	int i = 0;
-	int n_times = 0;
 	int n = 0;
 	int plus = 0;
 	int minus = 0;
