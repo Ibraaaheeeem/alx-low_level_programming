@@ -27,7 +27,7 @@ int _atoi(char *s)
 		}
 		else if (s[i] == 45)
 		{
-			minus++;
+			++minus;
 			if (minus % 2 == 0)
 				sign = 1;
 			else
