@@ -21,7 +21,7 @@ void _atoi(char *s)
 	{
 		if (s[i] >= 48 && s[i] <= 57)
 		{
-			n = n * 10 + s[i];
+			n = (n * 10) + (s[i] + 0);
 		}
 		else if (s[i] == '+')
 		{
