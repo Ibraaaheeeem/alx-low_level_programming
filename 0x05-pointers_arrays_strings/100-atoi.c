@@ -38,5 +38,5 @@ void _atoi(char *s)
 	}
 	if (minus % 2 != 0)
 		n = -n;
-	printf("%d\n", n);
+	return (n);
 }
