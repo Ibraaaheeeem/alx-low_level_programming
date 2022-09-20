@@ -19,10 +19,10 @@ int _atoi(char *s)
 
 	while (s[i] != '\0')
 	{
-		if (s[i] >= 48 && s[i] <= 57)
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			n = n * 10 + (s[i] - '0');
-			if (s[i + 1] < 48 || s[i + 1] > 57)
+			n = n * 10 + s[i];
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 		}
 		else if (s[i] == '+')
