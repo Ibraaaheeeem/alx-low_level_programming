@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates string
+ * _strncat - concatenates string
+ * with at most n bytes from src
  *
  * @src: source string
+ * @n: max bytes to concat
  * @dest: destination string
  * Return: concatenated string
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
 
@@ -22,6 +24,8 @@ char *_strcat(char *dest, char *src)
 		dest[i] = src[j];
 		j++;
 		i++;
+		if (i >= n)
+			break;
 	}
 
 	dest[i] = '\0';
