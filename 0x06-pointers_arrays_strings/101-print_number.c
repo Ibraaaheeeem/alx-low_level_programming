@@ -7,8 +7,11 @@
  * Return: converted string
  */
 
-void print_number(int n)
+void print_number(int i)
 {
+	unsigned int n;
+	n = i;
+
 	if (n < 0)
 	{
 		_putchar('-');
