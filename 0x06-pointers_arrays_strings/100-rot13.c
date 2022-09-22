@@ -11,9 +11,9 @@ char *rot13(char *s)
 {
 	int i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0' &&  (s[i] >= 'A' && s[i] <= 'Z')
+		|| (s[i] >= 'a' && s[i] <= 'z'); i++)
 	{
-		if (s[i] >= 'A' && s[i] <= 'Z' || s[i] >= 'a' && s[i] <= 'z') 
 		{
 			s[i] = s[i] + 13;
 			if (s[i] > 'z')
