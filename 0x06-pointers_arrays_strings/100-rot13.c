@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13- capitalizes
+ * rot13 - capitalizes
  * all words of a string
  * @s: string to convert
  * Return: converted string
