@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13- encodes a string with rot13
+ * rot13- capitalizes
  * all words of a string
  * @s: string to convert
  * Return: converted string
@@ -9,15 +9,16 @@
 
 char *rot13(char *s)
 {
-	int i = 0;
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int i = 0, j = 0;
 
-	for (i = 0; s[i] != '\0' &&  (s[i] >= 'A' && s[i] <= 'Z')
-		|| (s[i] >= 'a' && s[i] <= 'z'); i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
+		for (j = 0; a[j] != '\0'; j++)
 		{
-			s[i] = s[i] + 13;
-			if (s[i] > 'z')
-				s[i] -= 'z';
+			if (s[i] == a[j])
+				s[i] = b[j];
 		}
 	}
 
