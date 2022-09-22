@@ -4,7 +4,6 @@
  * reverse_array - reverses an array
  * @a: array
  * @n: number of bytes to reverswe
- * Return: result of comparison
  */
 
 void reverse_array(int *a, int n)
@@ -15,8 +14,8 @@ void reverse_array(int *a, int n)
 	{
 		int t = a[i];
 
-		a[i] = a[n - i - 1];
-		a[n - i] = t;
+		a[i] = a[j];
+		a[j] = t;
 		i++;
 		j--;
 	}
