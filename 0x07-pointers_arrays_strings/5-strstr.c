@@ -14,7 +14,7 @@ char *_strstr(char *haystack, char *needle)
 
 	while (*haystack)
 	{
-		str1 = haystack;
+		string = haystack;
 		pattern = needle;
 
 		while (*haystack == *pattern && *haystack)
@@ -24,9 +24,9 @@ char *_strstr(char *haystack, char *needle)
 		}
 
 		if (!*pattern)
-			return (str1);
+			return (string);
 
-		haystack = str1 + 1;
+		haystack = string + 1;
 	}
 	return (0);
 }
