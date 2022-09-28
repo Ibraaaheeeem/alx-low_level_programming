@@ -1,3 +1,4 @@
+ int check_prime(int i, int num);
 int find_root(int i, int k);
 int _putchar(char);
 void _puts_recursion(char *s);
