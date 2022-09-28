@@ -15,7 +15,7 @@ int _sqrt_recursion(int n)
 		return (-1);
 	else if (n == 0)
 		return (0);
-	return (find_root(r, n));
+	return (find_root(1, n));
 }
 
 
