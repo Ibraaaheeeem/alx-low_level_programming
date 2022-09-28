@@ -11,7 +11,7 @@ int _sqrt_recursion(int n)
 {
 	int r = n / 2;
 
-	,f (n < 0)
+	if (n < 0)
 		return (-1);
 	else if (n == 0)
 		return (0);
