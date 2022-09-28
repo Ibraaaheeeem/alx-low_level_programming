@@ -32,5 +32,6 @@ int find_root(int rt, int num)
 		return (-1);
 	if (rt * rt == num)
 		return (rt);
-	find_root(rt + 1, num);
+	else
+		find_root(rt + 1, num);
 }
