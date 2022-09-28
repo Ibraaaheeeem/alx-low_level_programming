@@ -28,7 +28,7 @@ int _sqrt_recursion(int n)
  */
 int find_root(int rt, int num)
 {
-	if (rt >= num)
+	if (rt * rt >= num)
 		return (-1);
 	if (rt * rt == num)
 		return (rt);
