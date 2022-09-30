@@ -5,9 +5,11 @@
  *
  * @argc: argument count
  * @argv: argument vector
- *
+ * Return: 0 always
  */
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s", *argv);
+	(void)argc;
+	printf("%s\n", *argv);
+	return (0);
 }
