@@ -12,7 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 	int total_size = size * sizeof(char);
-	int j = 0;
+	unsigned int j = 0;
 	char *arr;
 
 	arr = malloc(total_size);
@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 		return ('\0');
 	for (j = 0; j < size; j++)
 	{
-		*arr[j] = c;
+		arr[j] = c;
 	}
 	arr[size] = '\0';
 	return (arr);
