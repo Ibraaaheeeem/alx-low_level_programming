@@ -1,9 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
-/** main - this program adds two positive integers
+/**
+ * main - this program adds two positive integers
  * @argc: arguments count
  * @argv: arguments vector
+ * Return: value of summation
  */
 int main(int argc, char *argv[])
 {
@@ -14,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
-			if (!isdigit(argv[i][j]))
+			if (!(_isdigit(argv[i][j])))
 			{
 				printf("Error");
 				return (1);
@@ -23,7 +26,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		sum += atoi(argv[i]);
+		sum += _atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
