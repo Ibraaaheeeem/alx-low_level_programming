@@ -1,6 +1,6 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - this program adds two positive integers
@@ -8,6 +8,7 @@
  * @argv: arguments vector
  * Return: value of summation
  */
+
 int main(int argc, char *argv[])
 {
 	int i, j;
