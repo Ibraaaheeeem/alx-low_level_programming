@@ -14,35 +14,36 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i, j;
-	unsigned int s1length = 0;
-	unsigned int s2length = 0;
-	unsigned int new_length;
-	char *concat_string;
+	char *ar;
+	unsigned int i = 0;
+	unsigned int j = 0;
+	unsigned int m;
+	unsigned int p;
+	unsigned int k = 0;
+	unsigned int len;
 
-	while (s1 && s1[s1length])
-		s1length++;
-	while (s2 && s2[s2length])
-		s2length++;
-	if (s2length >= n)
-		new_length = s1length + n + 1;
-	else
-		new_length = s1length + s2length + 1;
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	while (s1[i])
+		i++;
+	while (s2[j])
+		j++;
+	if (j > n)
+		j = n;
 
-	concat_string = malloc((new_length + 1));
-	if (concat_string == NULL)
+	len = i + j;
+
+	ar = malloc(sizeof(char) * (len + 1));
+	if (ar == NULL)
 		return (NULL);
 
-	for (i = 0; i < s1length; i++)
-	{
-		concat_string[i] = s1[i];
-		i++;
-	}
-	for (j = i; j < new_length; j++)
-	{
-		concat_string[j] = s2[j - i];
-		j++;
-	}
-	concat_string[new_length] = '\0';
-	return (concat_string);
+	for (p = 0; p < i; p++)
+		ar[k++] = s1[p];
+	for (m = 0; m < j; m++)
+		ar[k++] = s2[m];
+
+	ar[k] = '\0';
+	return (ar);
 }
