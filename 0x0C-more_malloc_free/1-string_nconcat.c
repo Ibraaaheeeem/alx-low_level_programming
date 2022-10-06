@@ -20,18 +20,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int new_length;
 	char *concat_string;
 
-	while (s1 && (s1[i] != '\0'))
-	{
+	while (s1 && s1[s1length])
 		s1length++;
-		i++;
-	}
-	while (s2 && (s2[j] != '\0'))
-	{
+	while (s2 && s2[s2length])
 		s2length++;
-		j++;
-	}
-	i = 0;
-	j = 0;
 	if (s2length >= n)
 		new_length = s1length + n + 1;
 	else
