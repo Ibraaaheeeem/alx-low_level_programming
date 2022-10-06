@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	i = 0;
 	j = 0;
-	if (s2length > n)
+	if (s2length >= n)
 		new_length = s1length + n + 1;
 	else
 		new_length = s1length + s2length + 1;
