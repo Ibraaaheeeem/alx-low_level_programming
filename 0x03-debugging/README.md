@@ -1,1 +1,5 @@
-This project containt description of series of exercises in 0x03-debugging section of alx SE program
+# ALX Sofware Engineering Programme
+
+## ALX Low Level Programming in C
+
+#### debugging
