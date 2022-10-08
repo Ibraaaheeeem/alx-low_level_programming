@@ -2,7 +2,8 @@
 
 ## ALX Low Level Programming in C
 
-#### List of scripts and their functions:
+#### ```if-else-while``` - 
+#### The following is List of scripts and their functions:
 
 * 0-positive_or_negative.c: This program generates a random number every time its run and prints whether it is negative, positive or zero followed by a newline
 
