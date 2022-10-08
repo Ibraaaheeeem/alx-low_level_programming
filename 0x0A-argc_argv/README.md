@@ -2,4 +2,4 @@
 
 ## ALX Low Level Programming in C
 
-* These are tasks associated with argc and argv in C
+* These are tasks associated with ```argc``` and ```argv``` in C
