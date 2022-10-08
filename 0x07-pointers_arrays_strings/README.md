@@ -1,1 +1,5 @@
-ALX exercises 0x07-pointers_arrays_strings
+# ALX Sofware Engineering Programme
+
+## ALX Low Level Programming in C
+
+* These are more tasks associated with pointers, arrays and string in C
