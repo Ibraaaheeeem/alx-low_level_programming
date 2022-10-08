@@ -2,4 +2,4 @@
 
 ## ALX Low Level Programming in C
 
-#### debugging
+* These are tasks associated with debugging in C
