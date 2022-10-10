@@ -4,7 +4,7 @@
 /**
  * init_dog - this function
  * initializes a dog structure
- * 
+ *
  * @d: dog structure.
  * @name: dog name
  * @age: dog age
